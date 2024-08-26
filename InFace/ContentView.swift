@@ -12,8 +12,14 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView{
-            List(viewModel.posts){ post in
-                PostRow(post: post)
+            VStack {
+                if viewModel.posts.isEmpty{
+                    Text("No posts found").font(.headline)
+                }else{
+                    List(viewModel.posts){ post in
+                        PostRow(post: post)
+                    }
+                }
             }
             .navigationTitle("Feed")
             .onAppear{
