@@ -14,6 +14,9 @@
 		BFDBEBE82C7C5E4D00ACB6F8 /* InFaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBEBE72C7C5E4D00ACB6F8 /* InFaceTests.swift */; };
 		BFDBEBF22C7C5E4D00ACB6F8 /* InFaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBEBF12C7C5E4D00ACB6F8 /* InFaceUITests.swift */; };
 		BFDBEBF42C7C5E4D00ACB6F8 /* InFaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBEBF32C7C5E4D00ACB6F8 /* InFaceUITestsLaunchTests.swift */; };
+		BFDBEC012C7C5EFB00ACB6F8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBEC002C7C5EFB00ACB6F8 /* Post.swift */; };
+		BFDBEC032C7C5F5C00ACB6F8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBEC022C7C5F5C00ACB6F8 /* NetworkService.swift */; };
+		BFDBEC052C7C603D00ACB6F8 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBEC042C7C603D00ACB6F8 /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BFDBEBED2C7C5E4D00ACB6F8 /* InFaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InFaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDBEBF12C7C5E4D00ACB6F8 /* InFaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InFaceUITests.swift; sourceTree = "<group>"; };
 		BFDBEBF32C7C5E4D00ACB6F8 /* InFaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InFaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFDBEC002C7C5EFB00ACB6F8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BFDBEC022C7C5F5C00ACB6F8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BFDBEC042C7C603D00ACB6F8 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				BFDBEBD82C7C5E4900ACB6F8 /* ContentView.swift */,
 				BFDBEBDA2C7C5E4C00ACB6F8 /* Assets.xcassets */,
 				BFDBEBDC2C7C5E4C00ACB6F8 /* Preview Content */,
+				BFDBEC002C7C5EFB00ACB6F8 /* Post.swift */,
+				BFDBEC022C7C5F5C00ACB6F8 /* NetworkService.swift */,
+				BFDBEC042C7C603D00ACB6F8 /* PostViewModel.swift */,
 			);
 			path = InFace;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDBEC052C7C603D00ACB6F8 /* PostViewModel.swift in Sources */,
+				BFDBEC012C7C5EFB00ACB6F8 /* Post.swift in Sources */,
 				BFDBEBD92C7C5E4900ACB6F8 /* ContentView.swift in Sources */,
+				BFDBEC032C7C5F5C00ACB6F8 /* NetworkService.swift in Sources */,
 				BFDBEBD72C7C5E4900ACB6F8 /* InFaceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
