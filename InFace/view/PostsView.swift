@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PostsView.swift
 //  InFace
 //
 //  Created by Sushant Giri on 26/08/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PostsView: View {
     @ObservedObject var viewModel = PostViewModel()
     
     var body: some View {
@@ -78,5 +78,5 @@ struct PostRow: View {
 }
 
 #Preview {
-    ContentView()
+    PostsView()
 }

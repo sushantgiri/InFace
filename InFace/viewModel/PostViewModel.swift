@@ -28,6 +28,7 @@ class PostViewModel: ObservableObject {
                     break
                 }
             }, 
+                  //TODO: Checking for returned JSON Object
 //                receiveValue: { [weak self] postsData in
 //                          if let data = postsData as? Data {
 //                              if let json = try? JSONSerialization.jsonObject(with: data, options: []) {
